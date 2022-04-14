@@ -1,0 +1,71 @@
+.main_background{
+    -fx-background-color: rgb(20,20,20);
+    -fx-fill: rgb(20,20,20);
+}
+
+.module_background{
+    -fx-background-color: rgb(25,25,25);
+    -fx-fill: rgb(25,25,25);
+}
+
+.info_label{
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: linear-gradient(#fafa64, #8dff32);
+    -fx-background-radius: 10;
+    -fx-text-fill: black;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(#d2d23c, #64d70a);
+    -fx-cursor: hand;
+}
+
+.button:pressed{
+    -fx-background-color: linear-gradient(#b4b41e, #3ca000);
+}
+
+.text-field{
+    -fx-background-radius: 10;
+}
+
+.choice-box{
+    -fx-background-color: linear-gradient(#fafa64, #8dff32);
+    -fx-background-radius: 30;
+}
+
+.combo-box{
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.exit{
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#ff0000, #880000);
+}
+
+.exit:hover{
+    -fx-background-color: linear-gradient(#800000, #600000);
+}
+
+.exit:pressed{
+    -fx-background-color: linear-gradient(#600000, #400000);
+}
+
+.shortcuts{
+    -fx-text-fill: white;
+    -fx-background-color:linear-gradient(#0000ff , #000088);
+}
+
+.shortcuts:hover{
+    -fx-background-color: linear-gradient(#000080 , #000060);
+}
+
+.shortcuts:pressed{
+    -fx-background-color: linear-gradient(#000060 , #000040);
+}
+
+

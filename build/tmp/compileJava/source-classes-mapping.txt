@@ -1,0 +1,33 @@
+fmfi/dalekohlad/Modules/Camera.java
+ fmfi.dalekohlad.Modules.Camera
+fmfi/dalekohlad/Modules/GUIModule.java
+ fmfi.dalekohlad.Modules.GUIModule
+fmfi/dalekohlad/Communication/Communication.java
+ fmfi.dalekohlad.Communication.Communication
+fmfi/dalekohlad/Modules/Graphics.java
+ fmfi.dalekohlad.Modules.Graphics
+fmfi/dalekohlad/Mediator.java
+ fmfi.dalekohlad.Mediator
+fmfi/dalekohlad/Modules/Axis.java
+ fmfi.dalekohlad.Modules.Axis
+fmfi/dalekohlad/Modules/Filterwheel.java
+ fmfi.dalekohlad.Modules.Filterwheel
+ fmfi.dalekohlad.Modules.Filterwheel$1
+ fmfi.dalekohlad.Modules.Filterwheel$1$1
+fmfi/dalekohlad/Operations.java
+ fmfi.dalekohlad.Operations
+fmfi/dalekohlad/Modules/Dome.java
+ fmfi.dalekohlad.Modules.Dome
+fmfi/dalekohlad/Modules/Target.java
+ fmfi.dalekohlad.Modules.Target
+fmfi/dalekohlad/InputHandling/ShortcutHandler.java
+ fmfi.dalekohlad.InputHandling.ShortcutHandler
+fmfi/dalekohlad/Modules/Others.java
+ fmfi.dalekohlad.Modules.Others
+ fmfi.dalekohlad.Modules.Others$1
+fmfi/dalekohlad/LockInstance/LockInstance.java
+ fmfi.dalekohlad.LockInstance.LockInstance
+fmfi/dalekohlad/Main.java
+ fmfi.dalekohlad.Main
+fmfi/dalekohlad/InputHandling/InputConfirmation.java
+ fmfi.dalekohlad.InputHandling.InputConfirmation

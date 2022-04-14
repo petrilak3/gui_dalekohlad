@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="700.0" prefWidth="1200.0" styleClass="main_background" stylesheets="@/styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="310.0" layoutY="2.0" style="&#10;" text="Shortcut" textAlignment="CENTER" textFill="#f1f436" wrapText="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="438.0" layoutY="2.0" style="&#10;" text="Description" textAlignment="CENTER" textFill="#f1f436" wrapText="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="725.0" layoutY="5.0" style="&#10;" text="Input values" textAlignment="CENTER" textFill="#f1f436" wrapText="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="81.0" style="&#10;" text="Left" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="313.0" layoutY="149.0" style="&#10;" text="Insert" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="132.0" style="&#10;" text="Down" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="98.0" style="&#10;" text="Up" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="115.0" style="&#10;" text="Right" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="313.0" layoutY="166.0" style="&#10;" text="PageUp" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="316.0" layoutY="200.0" style="&#10;" text="f" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="316.0" layoutY="217.0" style="&#10;" text="y" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="234.0" style="&#10;" text="a" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="251.0" style="&#10;" text="L" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="312.0" layoutY="268.0" style="&#10;" text="G" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="285.0" style="&#10;" text="c" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="302.0" style="&#10;" text="z" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="319.0" style="&#10;" text="p" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="336.0" style="&#10;" text="s" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="353.0" style="&#10;" text="r" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="370.0" style="&#10;" text="O" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="387.0" style="&#10;" text="o" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="404.0" style="&#10;" text="n" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="421.0" style="&#10;" text="t" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="438.0" style="&#10;" text="m" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="455.0" style="&#10;" text="e" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="472.0" style="&#10;" text="d" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="313.0" layoutY="489.0" style="&#10;" text="E, X, A" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="316.0" layoutY="608.0" style="&#10;" text="C, B, V, R, I" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="313.0" layoutY="506.0" style="&#10;" text="T" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="523.0" style="&#10;" text="PageDown" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="314.0" layoutY="540.0" style="&#10;" text="End" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="312.0" layoutY="557.0" style="&#10;" text="Delete" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="574.0" style="&#10;" text="[" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="317.0" layoutY="591.0" style="&#10;" text="]" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="316.0" layoutY="64.0" style="&#10;" text="K" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="47.0" style="&#10;" text="J" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="81.0" style="&#10;" text="Slew east -&gt; &quot;-&quot; is added" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="115.0" style="&#10;" text="Slew west" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="98.0" style="&#10;" text="Slew north" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="132.0" style="&#10;" text="Slew south -&gt; &quot;-&quot; is added" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="81.0" style="&#10;" text="double, -250 000 - 1" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="98.0" style="&#10;" text="double, 1 - 250 000" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="132.0" style="&#10;" text="double, -250 000 - 1" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="115.0" style="&#10;" text="double, 1 - 250 000" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="149.0" style="&#10;" text="Move dome east" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="166.0" style="&#10;" text="Move dome west" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="200.0" style="&#10;" text="Set  speed of dome" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="217.0" style="&#10;" text="Synchronize dome" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="234.0" style="&#10;" text="Set azimuth of dome" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="251.0" style="&#10;" text="Set target" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="268.0" style="&#10;" text="GoTo/Cancel target" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="285.0" style="&#10;" text="Calibrate with respect on last frame" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="302.0" style="&#10;" text="Calibrate with respect on zenith" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="319.0" style="&#10;" text="Pole crossing on/off" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="336.0" style="&#10;" text="Set desired temperature of camera" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="353.0" style="&#10;" text="Sequence repeats" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="370.0" style="&#10;" text="Set name of observers" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="387.0" style="&#10;" text="Set name of observed object" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="404.0" style="&#10;" text="Set notes to observation" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="421.0" style="&#10;" text="Toggle type of image" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="438.0" style="&#10;" text="Toggle mode of camera" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="455.0" style="&#10;" text="Set exposure time" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="472.0" style="&#10;" text="Set exposure delay" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="489.0" style="&#10;" text="Expose" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="506.0" style="&#10;" text="Automatic correction (dangerous elevation)" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="523.0" style="&#10;" text="Stop RA engine" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="540.0" style="&#10;" text="Stop RA  and DE engines" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="557.0" style="&#10;" text="Stop DE engine" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="574.0" style="&#10;" text="Enable RA and DE engines" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="591.0" style="&#10;" text="Disable RA and DE engines" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="608.0" style="&#10;" text="Change filter to C/B/V/R/I" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="313.0" layoutY="183.0" style="&#10;" text="Home" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="183.0" style="&#10;" text="Stop moving dome" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="315.0" layoutY="30.0" style="&#10;" text="H" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="64.0" style="&#10;" text="Stop scheduler" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="47.0" style="&#10;" text="Start scheduler" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="436.0" layoutY="30.0" style="&#10;" text="GoTo from scheduler (not implemented)" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="30.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="47.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="64.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="149.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="166.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="183.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="200.0" style="&#10;" text="double, 0 - 60" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="217.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="234.0" style="&#10;" text="double, 0 - 60" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="251.0" style="&#10;" text="double, -250 000 - 250 000" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="268.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="285.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="302.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="319.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="336.0" style="&#10;" text="double, ?" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="353.0" style="&#10;" text="int, input &gt; 0" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="370.0" style="&#10;" text="string" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="387.0" style="&#10;" text="string" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="404.0" style="&#10;" text="string" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="421.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="438.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="455.0" style="&#10;" text="double, input &gt; 0" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="472.0" style="&#10;" text="double, input &gt; 0" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="489.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="506.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="523.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="540.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="557.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="574.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="591.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="608.0" style="&#10;" text="no input" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="1021.0" layoutY="642.0" mnemonicParsing="false" prefWidth="150.0" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
